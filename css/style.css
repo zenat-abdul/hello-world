@@ -1,7 +1,16 @@
-h1{
-    color: blue;
+@media screen and (min-width: 480px) and (max-width: 767px) {
+  body {
+      background-color: black;
+      color: white;
+  }
 }
-p{
-    color: chartreuse;
-    background-color: chocolate;
+@media screen and (min-width: 768px) {
+body {
+  background-color: yellowgreen;
+}
+.column {
+  width: 220px;
+  float: left;
+  padding: 15px;
+}
 }
