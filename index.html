@@ -1,24 +1,46 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>my first webpage</title>
-        <link href="css/style.css" rel="stylesheet" type="text/css">
-    </head>
-    <body>
-        <h1>my first webpage</h1>
-        <h2>written with a little guidance from<em>moringa school</em></h2>
-        <p>hello, world!</p>
-        <p>welcome to my <strong>first webpage</strong></p>
-        <p>here are the things i am going to learn about coding:</p>
-        <ul>    
-            <li>html</li>
-            <li>css</li>
-            <li>java script</li>
-            <li>and alot more</li>
+        <link href="css/style.css" rel="stylesheet" type="text/css" media="all">
+        body>
+        <nav class="zone blue sticky">
+            <ul class="main-nav">
+                <li><a href="">About</a></li>
+                <li><a href="">Products</a></li>
+                <li><a href="">Our Team</a></li>
+                <li class="push"><a href="">Contact</a></li>
         </ul>
-        <p>Check out <a href = "http://moringaschool.com/">Moringa School</a>. It's a great place to learn web development skills!</p>
-        <p>Here is a link to my <a href="favorite-things.html">favorite things</a>.</p>  
-        <img src="elephantjpg" alt="A photo of an elephant"> 
-        <img src="images/elephant.jpg" alt="A photo of an elephant">
-    </body>
+        </nav>
+        <div class="container">
+            <img class="cover" src="img/cover.jpg">
+            <div class="coverText"><h1>Making the world a better place</h1></div>
+        </div>
+        <div class="zone blue grid-wrapper">
+            <div class="card zone">
+                <img src="./img/teamplay.jpg">
+                <div class="text">
+                    <h1>Team play</h1>
+                    <p>We work together to create impact</p>
+                    <button>Learn more</button>
+                </div>
+            </div>
+          <div class="card zone"><img src="./img/strategy.jpg">
+              <div class="text">
+                  <h1>Strategy</h1>
+                  <p>Every goal is part of our strategy</p>
+                  <button>Learn more</button>
+              </div>
+          </div>
+          <div class="card zone"><img src="./img/innovation.jpg">
+              <div class="text">
+                  <h1>Innovation</h1>
+                  <p>We're focused on thinking different</p>
+                  <button>Learn more</button>
+              </div>
+          </div>
+        </div>
+        <footer class="zone"><p>2019 Assaf Elovic All right reserved. For more articles visit <a href="www.assafelovic.com">www.assafelovic.com</a></p></footer>
+      </div>
+      </body>
+    </head>
 </html>
